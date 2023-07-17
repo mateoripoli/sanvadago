@@ -77,12 +77,14 @@
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    text-align: center;
 }
 
 .hero p{
     font-size: 30px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .bg{
@@ -257,7 +259,7 @@
 }
 
 #contacto p{
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -265,7 +267,7 @@
 }
 
 .icons img{
-    width: 50px;
+    width: 7vh;
     height: auto;
 }
 
