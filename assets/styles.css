@@ -171,6 +171,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .container-cards p{
@@ -220,6 +221,7 @@
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .info-cards .consulta img{
