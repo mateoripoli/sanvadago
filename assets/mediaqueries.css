@@ -23,14 +23,14 @@
 }
 
 @media (max-width: 743px) {
-    .tronco-img{
+    /* .tronco-img{
         width: 500px;
         height: auto;
         position: absolute;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-    }
+    } */
 
     .hero h1{
         font-size: 50px;
@@ -65,25 +65,25 @@
 }
 
 @media (max-width: 520px) {
-    .tronco-img{
+    /* .tronco-img{
         width: 400px;
         height: auto;
         position: absolute;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-    }
+    } */
 }
 
 @media (max-width: 460px) {
-    .tronco-img{
+    /* .tronco-img{
         width: 280px;
         height: auto;
         position: absolute;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-    }
+    } */
 
     .hero h1{
         font-size: 30px;
