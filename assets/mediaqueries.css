@@ -228,15 +228,6 @@
 }
 
 @media (max-width: 460px) {
-    /* .tronco-img{
-        width: 280px;
-        height: auto;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    } */
-
     .hero h1{
         font-size: 30px;
         display: flex;
@@ -253,7 +244,7 @@
     }
 
     .container-cards .card{
-        width: 250px;
+        width: 280px;
         background-image: url(./imgs/d1.jpg);
         background-position: 100% 200px;
         box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.171);
