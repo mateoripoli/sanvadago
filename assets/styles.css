@@ -107,6 +107,10 @@ body::-webkit-scrollbar-thumb{
     text-align: center;
 }
 
+.hero a{
+    cursor: default;
+}
+
 .bg{
     height: 100vh;
     width: 100%;
@@ -304,12 +308,9 @@ body::-webkit-scrollbar-thumb{
 }
 
 .bg2{
-    height: 20vh;
+    height: 22vh;
     width: 100%;
-    background-color: #583E26;
-    background-size: cover;
-    background-position: center;
-    background-attachment: local;
+    background-color: rgb(222, 222, 222);
 }
 
 #contacto p{
@@ -320,32 +321,88 @@ body::-webkit-scrollbar-thumb{
     text-align: end;
 }
 
-.icons img{
-    width: 7vh;
-    height: auto;
-}
-
-.icons{
+.icons {
     display: flex;
     justify-content: center;
+}
+
+.icons ul{
+    display: flex;
     flex-direction: row;
-    gap: 60px;
-    padding-top: 10px;
+
 }
 
-.icons a{
-    transition: 0.5s;
+.icons ul li{
+    list-style: none;
 }
 
-.icons a:hover{
-    transition-duration: 0.5s;
-    transform: scale(1.1);
+.icons ul li a{
+    width: 85px;
+    height: 85px;
+    background-color: #583E26;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #583E26;
+    z-index: 1;
+}
+
+.icons ul li a .icon {
+    position: relative;
+    color: rgb(222, 222, 222);
+    transition: .5s;
+    z-index: 3;
+  }
+
+.icons ul li a .icon {
+    position: relative;
+    color: rgb(222, 222, 222);
+    transition: .5s;
+    z-index: 3;
+}
+  
+.icons ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+  
+.icons ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: 2;
+}
+
+.icons ul li a:hover:before {
+    top: 0;
+}
+  
+.icons ul li:nth-child(1) a:before{
+    background: #C13584;
+}
+  
+.icons ul li:nth-child(2) a:before{
+    background: #25D366;
+}
+  
+.icons ul li:nth-child(3) a:before {
+    background: #3b5998;
 }
 
 .contactanos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5vh 20px 5vh 20px;
+    border-top: 1px solid rgb(27, 27, 27);
 }
 
