@@ -358,13 +358,6 @@ body::-webkit-scrollbar-thumb{
     transition: .5s;
     z-index: 3;
   }
-
-.icons ul li a .icon {
-    position: relative;
-    color: rgb(222, 222, 222);
-    transition: .5s;
-    z-index: 3;
-}
   
 .icons ul li a:hover .icon {
     color: #fff;
