@@ -95,7 +95,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 60px;
     display: flex;
     justify-content: center;
-    padding-top: 130px;
+    padding-top: 100px;
     text-align: center;
     
 }
